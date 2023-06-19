@@ -1,0 +1,6 @@
+artifactId: quay.io/opsmxpublic/ubi8-spin-clouddriver:1.28.4-fa4e12bba_4.0.3.1
+env: 
+  JAVA_OPTS: "-XX:MaxRAMPercentage=100.0"
+kubernetes:
+  podAnnotations:
+    moniker.spinnaker.io/application: spin
